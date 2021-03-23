@@ -1,0 +1,166 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+.flex-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+h2, h4 {
+    padding: 10px;
+}
+p {
+    padding: 10px;
+}
+
+
+/* NAVBAR */
+nav {
+    position: fixed;
+    height: 69px;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    z-index: 10;
+    background-color: black;
+}
+
+li {
+    display: inline-block;
+    
+}
+
+li a {
+    color: seashell;
+    padding: 0 10px;
+}
+
+img {
+    padding: 10px;
+    height: 50px;
+}
+
+/* Main Content */
+
+.flex-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+main {
+    position: relative;
+    top: 70px;
+    
+}
+
+/* Mission */
+
+#mission {
+    
+    background-image: url('img/mission-background.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 700px;
+    width: 100%;
+}
+
+article {
+    background-color: black;
+    width: inherit;
+}
+
+
+/* Teas */
+
+#teas {
+    width: 100%;
+    padding: 50px 0px;
+}
+
+.flex-teas {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+li img {
+    height: 200px;
+    width: 300px;
+}
+li h4 {
+    padding: 10px;
+}
+
+/*   Locations   */
+
+.flex-loc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#locations {
+    background-image: url('img/locations-background.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 500px;
+    padding-top: 70px;
+}
+
+#locations ul li {
+    background-color: black;
+    display: inline-block;
+    height: 250px;
+    width: 300px;
+    margin: 15px 40px;
+    padding: 20px;
+}
+
+/* Contact */
+
+#contact {
+    height: 200px;
+    width: auto;
+    padding-top: 50px;
+}
+
+#contact h5 {
+    padding: 10px;
+}
+
+/* Footer */
+
+.flex-footer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+footer {
+    position: relative;
+    top: 100px;
+    text-align: left;
+}
+
+footer h5 {
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
